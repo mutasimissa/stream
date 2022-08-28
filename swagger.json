@@ -1,9 +1,9 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "version": "0.0.1",
-    "title": "connect-express",
-    "description": "Express Boilerplate"
+    "version": "0.0.2",
+    "title": "mutasimissa-stream",
+    "description": "stream HLS from RTSP"
   },
   "servers": [
     {
@@ -17,7 +17,7 @@
     {}
   ],
   "paths": {
-    "/api/hello/": {
+    "/api/stream/": {
       "get": {
         "description": "",
         "parameters": [
