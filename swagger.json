@@ -1,0 +1,88 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "version": "0.0.1",
+    "title": "connect-express",
+    "description": "Express Boilerplate"
+  },
+  "servers": [
+    {
+      "url": "http://127.0.0.1:3000/"
+    },
+    {
+      "url": "https://127.0.0.1:3000/"
+    }
+  ],
+  "tags": [
+    {}
+  ],
+  "paths": {
+    "/api/hello/": {
+      "get": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "echo",
+            "in": "query",
+            "required": true,
+            "description": "Your Message to ECHO",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Echo a message",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "echo": {
+                      "type": "string",
+                      "example": "Your Message Here!"
+                    }
+                  },
+                  "xml": {
+                    "name": "main"
+                  }
+                }
+              },
+              "application/xml": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "echo": {
+                      "type": "string",
+                      "example": "Your Message Here!"
+                    }
+                  },
+                  "xml": {
+                    "name": "main"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Error": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string",
+            "example": "Error Message"
+          }
+        },
+        "xml": {
+          "name": "Error"
+        }
+      }
+    }
+  }
+}

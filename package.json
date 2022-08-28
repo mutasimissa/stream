@@ -1,0 +1,36 @@
+{
+  "name": "connect-express",
+  "version": "0.0.1",
+  "description": "Express Boilerplate",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "swagger": "node swagger.js",
+    "dev": "nodemon -e js --exec 'yarn swagger && yarn start'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mutasimissa/connect-express.git"
+  },
+  "keywords": [
+    "express",
+    "nodejs"
+  ],
+  "author": "Mutasim Issa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mutasimissa/connect-express/issues"
+  },
+  "homepage": "https://github.com/mutasimissa/connect-express#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "swagger-autogen": "^2.21.5",
+    "swagger-ui-express": "^4.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
