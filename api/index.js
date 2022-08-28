@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const helloAPI = require('./helloAPI')
-router.use('/hello', helloAPI);
+const streamAPI = require('./streamAPI')
+router.use('/stream', streamAPI);
 
 module.exports = router;
