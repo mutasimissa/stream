@@ -1,3 +1,7 @@
+### 0.0.2
+- install FFMPEG in Dockerfile
+- install dependencies
+
 ### 0.0.1
 - initial commit
 - Basic Error Middleware
