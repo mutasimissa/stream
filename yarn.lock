@@ -653,10 +653,10 @@ supports-color@^5.5.0:
   dependencies:
     has-flag "^3.0.0"
 
-swagger-autogen@^2.21.5:
-  version "2.21.5"
-  resolved "https://registry.yarnpkg.com/swagger-autogen/-/swagger-autogen-2.21.5.tgz#143430697495ae0f541ceadea1ff7d48b998cb62"
-  integrity sha512-HEpOfxV2R1VoEkwRhTMGNa2PAVt8wnCjMDTiZmAQ1MRDUejKljWh2CxwPfwzdRF9n8fdjUUJS77G/hT1de6e7w==
+swagger-autogen@^2.21.10:
+  version "2.21.10"
+  resolved "https://registry.yarnpkg.com/swagger-autogen/-/swagger-autogen-2.21.10.tgz#a4f629a146c0c6b53b1d72733e332badd1a98e98"
+  integrity sha512-JXia5H8u0Qjf9pR0H26il4ClNG5N4fEh2tdd4IqjfaNNifIILCaY/6LifSV4xBYImGNR5LK8wMXfINRA6EGdMw==
   dependencies:
     acorn "^7.4.1"
     deepmerge "^4.2.2"
